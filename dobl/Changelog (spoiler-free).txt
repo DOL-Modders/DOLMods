@@ -1,0 +1,287 @@
+Version 0.1.4b:
+
+Main changes:
+-Updated to 0.2.19.2!
+
+-Reworked how fatigue affects otherwordly creatures. They do not tire anymore when they're satisfied. Penalty for unsatisfaction reduced from 250% to 150% extra fatigue.
+
+-Reworked the damage formula. Removed a 2x multiplier to damage related to physique.
+
+-Reworked how spirits act in struggle encounters (to fit with the new system). They can pull the lurker by themselves with a fixed chance of working (depending on its stats). It can also help you get a better grip and help you pull the lurker (doing so increases the chance of success).
+
+-Added the two remaining stats for spirits. And some previous numbers were tweaked a bit.
+
+-Otherwordly creatures get 100% grip with just one grasp in struggle encounters.
+
+-Killing someone now will increase less crime overall by itself, but witnesses will contribute to incriminate you so avoid public places when doing so.
+
+Small changes:
+-Added some flavor text for when you kill someone.
+-Added a counter beside "Repeat barrage" to indicate how many barrages will be dealt.
+-Painkillers can no longer reduce school skills. Now they will halve the result of studying.
+-You can no longer kill someone while in the water.
+-Studying the stone mask now takes 2 hours. The english and history requirements were updated to match the new school system, so it should be roughly the same as before.
+
+Bug fixes:
+-Fixed a problem in a link break after an event with Lee.
+-Fixed some incorrect macro calls for span and br.
+-A certain spirit will no longer fix your blindfold nor gags. Also added a special case for "Ankle cuffs".
+-Fixed various issues when escaping with a certain spirit's stopping ability.
+-Fixed Yankee hair.
+-Fixed a little visual oversight with spirits' actions radio buttons.
+-Fixed a game breaking bug found when sleeping with Eden in some occasions.
+-Fixed an error message when trying to pick a lock.
+-Updated bug fixes from 0.2.18.1 to 0.2.19.2.
+-Yet again, fixed the unintended ability to get two special transformations at the same time.
+-Fixed the escape link in one specific spirit's world.
+-Regular NPCs can no more enter the spirit's world when trying to steal from them.
+-Fixed a big error message when using one of the spirit's finding ability.
+-Various undocumented oversights.
+
+
+Version 0.1.4a The "Community's choice" patch:
+
+We heard you, and focused all our efforts into making those images you all wanted so much. This doesn't mean there will be no more image changes, no. Expect more and better images in the future!
+Also it's Octuberf- I mean Halloween season (at least it was back when I first wrote this), so we took some of the long planned "horror" features into consideration this patch.
+
+Main Changes:
+-Added 3 clothes to the forest shop and 1 to the regular clothing shop.
+Thanks to Hero for the clothes' sprites.
+
+-Added sprites for all the currently available spirits. They will now stand by your side at the top of the character tab.
+Thanks to Hero and erick7477719 for the sprites.
+And huge thanks to Mochi for showing us the way of the muscles.
+
+-Added the "Yankee" fringe style.
+Thanks to Hero for the sprites.
+
+-Added a little sprite to remind the player they have a mask. It shows near the sprays.
+Thanks to TheLimitlessUnknown and Hero.
+
+Halloween Changes:
+-Added requirements for killing people (Araki mode only). Now the PC has to have a way of killing the assailants (no more frail PCs tied by handcuffs magically invoking Divine Wrath upon peasants).
+-Added the first Game Over screen (Araki mode only).
+-Added a "bruise" system to make use of the bruise variables already in the game. The PC will not be able to fully heal if they're bruised somewhere (unless they use some sort of special ability).
+Otherwordly creature naturally heal their bruises by the hour, as do sun fighters but much slower (10x slower than the creature). Absorbing blood as an otherwordly creature will also heal some bruises.
+Everyday the bruises will heal slightly. A certain spirit will provide 2x daily bruises heal.
+A certain spirit's Heal ability will get rid of some bruises before healing.
+-Added "Bruises" to the cheats menu, under Character Visual.
+-As a balance to the new bruise engine, painkillers were added. You can buy them at the pharmacy, at the Nightingale street's hospital. They will reduce the effect of bruises in pain as well as reduce the exceeding value of pain you can suffer for the day. Be careful: there will always be side effects.
+-Added a visual representation for bruises. As the bruises get worse, new and more horrific sprites show. You can turn off the follow-up sprites at the beginning of the game (under Game Settings). Also added Araki mode-only blood for when bruises get really bad (this one can't be turned off).
+Thanks to noeinan for the help with face bruises.
+Thanks to TheLimitlessUnknown for the outline and pretty much everything for the following bruises: left arm, right arm, chest, neck, tummy, thighs and all 5 penis sizes. Also thanks to noeinan for the help with tanned versions.
+Thanks to Hero for the following blood sprites (with help of TheLimitlessUnknown): right arm, left arm, chest, tummy, thighs and neck. And thanks to The Limitless Unknown for all 5 penis size blood sprites.
+
+Small Changes:
+-The mod notice was moved to the "Mod Info" tab at the beggining of the game.
+-Now "Mod Info" will give more precise information about the mod.
+-Added "More Mod Info" tab to "Mod Info". It shows the progress of the mod in general. Be aware of spoilers.
+-"Mod Info" will no longer be an option to click on during the introduction scene (to prevent some bugs).
+-Changed the year to better match the period in which the story unfolds.
+-Added the option to use all your spirit counters in one barrage attack. The counter will be deducted to 0 and all the possible usages of barrage attacks will happen. Excessive counters will be wasted.
+-As a result of the aforementioned change, some texts have been adjusted.
+-Balanced some values in the Gym. Now the difference between training with and without proper clothing is smaller but overall values were increased. In summary, an overall gym buff (ba dum tss).
+-Added the option to be menacing in the behavior section of the mirror. This will make the PC stop smiling and show menacing "go go go" behind them.
+-You can now hide your eye color and/or fangs as an otherwordly creature.
+-You will now retain some of the spirit counter from previous battles (but it resets to 0 after sleeping).
+-You now need at least 400 willpower to be able to use Hamon.
+-Added the exclusive otherwordly creature stat to the cheats menu (locked until becoming one).
+-Changed the priority of midnight transformations, important for when multiple transformations can occur in one night. Now the mod's exclusive transformations take priority over all the vanilla ones, and they obey to the following priority between themselves: Otherworldly creature>Spirit>Sun fighter. This sequence prevents unintended results for unaware players.
+-Otherworldly creatures now lose their ability to heal fast if their exclusive stat is 1200 or higher.
+-Added spirits to machine fights, with some tweaks. One of them can fix the machines back to their perfect form if prompted to.
+-Changed how a certain spirit's look-changing ability's cooldown timer is generated. Now it's simply a random number between 5 and 25 days (previously could be any of the following: 7, 14, 21, 28, 35 days. 14 days was the most likely one to be chosen, followed by 21).
+
+Bug fixes:
+-The mod version now shows the correct number.
+-No more weird messages after escaping the farm in certain conditions.
+-One of the tier 3 feats that disappeared mysteriously is available again.
+-You will no longer lose your "transformed" status overnight when transformed into any of the three mod exclusive Transformations. This will prevent players from acquiring many transformations of the same type at the same time. Older saves having transformations will have all their transformations but 1 removed from them, following this sequence of priority: Spirit is keeped. If no spirit, otherwordly creature is keeped. If no otherwordly creature, sun fighter is keeped. If no sun fighter, the regular transformations will be keeped.
+-Fixed a rare yet serious problem when defeating groups of NPCs. Thanks guys for helping me with this one.
+-2 certain spirit's abilities will no longer kill people outside Araki mode.
+-Some error messages in combat were fixed.
+-Various improvements in spirit abilities that disable enemies.
+-Otherworldly creature's exclusive stat bar now works properly.
+-Various undocumented oversights.
+
+*Developer note: This patch is based off version 0.2.18.1 of vanilla DoL and is bound to have bugs similar to those found there. I ask for you comprehension and patience, for as soon as the bugs get reported they will be fixed and a bug clean version will be released once they're all gone.
+
+
+Version 0.1.4:
+
+Changes:
+-Added an entire new location, the Gym! There you can increase your physique and athletics. But you'll have to pay an upfront cost every day you want to enter. There is also a separate place to learn about the ways of the fighters: Discipline and Humility.
+
+Small Changes:
+-Added the three transformations to the "Transformations" area in Extra Stats.
+
+Bug fixes:
+-Fixed the nameless spirit sometimes not being properly referenced in texts.
+-Some more granma fixes.
+-No more error messages when using a certain spirit's persistant ability against 3 or more people.
+-High submissiveness spirit chance boost for three-spirit skills now requires the same amount of submissiveness needed to be considered "meek". It was 100 more before.
+-Timed events should no longer take half their expected time to end.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1.3e - New Game Version 0.2.16.3:
+
+Bug Fix Verion 2:
+-No more error messages when listening while bartending.
+-No more error messages in Attitudes menu while being an ungodly creature or a Sun fighter.
+-Fixed a whole bunch of problems involving using a certain spirit's ability in a beast.
+-Added the option to use unlimited spirit abilities to the cheats menu.
+-We added a full changelog (as you might have noticed). From now on, all the changes from the very first version of DoBL will be forever documented in here.
+
+
+Bug Fix Verion:
+-Garden now works again
+-A certain spirit is now able to open any lock, as advertised.
+-No more error messages when trying to pick a lock.
+-No more error messages during history lessons.
+-No more error messages when seducing someone.
+-Forest will no longer softlock randomly.
+
+Changes:
+-Added a new spirit and the School skills category (that uses the former secret spirit):
+	Fighting middle submissiveness. A powerful entity that infects people with a deadly virus (watch out, you're not immune to viruses by any means!). Expect accidental kills in Araki Mode.
+	English School skill. Does not fight well, but can be used in combat to *rewrite* your opponent's lives (formerly password exclusive).
+
+-Now a certain type of otherwordly creature will immediately regain control over their bodies in case of orgasm or overwhelming pain.
+
+-Completely reworked two actions exclusive to the aforementioned creature: They got renamed and now are usable in consensual encounters (whereas previously it wasn't possible). Causes low damage and heals a little bit.
+
+-Reworked a certain spirit's Heal ability's formula. Now it's a direct function instead of a logarithmic function.
+
+Minor changes:
+-Reworked several text information, to make it more appealing to the eyes.
+-Added 5 new abilities to existing spirits:
+	A meme attack that deals lower damage than the usual attack but from farther away.
+	Traps one target for 10 seconds (one turn). Target gets burned.
+	Barrage attack, but with potential multihits.
+	A mourning attack that deals slightly more damage than the usual attack, from farther away.
+	Deals *explosive* amounts of damage to 1 target.
+-Added the two first spirits to the cheat menu.
+-Reworked some damage calculation. Some spirits might have become a little stronger and others a little weaker.
+-Some overall improvements to the code.
+-Added a new command for the writing spirit.
+
+Bug Fixes:
+-One of the spirits that wasn't showing its abilities now does so.
+-"The weakest" spirit will now be unable to fight in wrestles (like should have been).
+-A small typo that led to less probability of getting school skills than intended was corrected.
+-Several unintended results and errors in several different places were corrected.
+
+Known bugs:
+-The odds of getting the school spirit are slightly higher than it should be. This is in preparation for new content.
+-A special type of combat is kinda broken. And there are stuff missing. This has been in my highest priority to rework, but the code is so massive that it would take way too long to rewrite everything. This is probably gonna take it's own entire patch to fix.
+
+Patch Notes:
+*As of 0.2.16.2, daily willpower decay was reduced from 1.5% to 1%. The modded decay of 0.5% (for non-Joestars) stays unchanged.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1.3d:
+
+Emergency mid-month update, to kill some game-breaking bugs and other annoying things.
+
+Changes:
+-Removed a spirit from the cheat list.
+-Added a spirit to the cheat list.
+-Reworked the spirit's cheats options for updating reasons.
+-Renamed some spirits for consistency reasons. Hopefully, for the last time.
+-Updated the overnight spirit getting sequence that was rusting for some reason.
+
+Bug Fixes:
+-Sun fighter should not break the game anymore.
+-A certain hidden post-fight passage should not result in an unintended ending now.
+-Some incorrect text for some spirits' abilities.
+-Some incorrect text when spirits interact with beasts.
+-Finishing masturbation and consensual encounters won't fill you with a sudden desire to kill someone anymore (Araki mode only).
+-Remembered to update the version number this time.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1.3c:
+
+0.1.3c:
+Minor Changes:
+The mod's discovery feats are now hidden.
+A certain series of feats was changed: The first one is hidden and always shows itself. The second one is not hidden and only shows itself after the first is obtained.
+
+Bug Fixes:
+Undefined variable for the hidden location now works normally.
+Trying to swim will no longer break your browser.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1.3b - New Game Version 0.2.13.4
+
+Changes:
+Added spirits for the Tending skill:
+Low Submissiveness - A decently powerful spirit that can give life to an inanimate object. Can also heal the user if needed.
+High Submissiveness - Not usable in battle but can make some chores easier. After each day it'll have found something for you, if you were sleeping.
+
+Also added a little secret spirit, only for the most curious ones. In a future update, it will be skill-based like the others.
+
+Added a Special tier 3 Feat for one of the above spirits.
+
+Added a little event when trying to escape the livestock farm if the perfect conditions meet.
+
+Now you can decide to evolve your spirit, or not, by choosing the skills you want it to consider when getting a name (or choose none to keep the spirit nameless).
+
+You should now (hopefully) be able to export your vanilla DoL save file and your older versions of DoBL to the current version of DoBL from now on. Any problem with save file stuff, contact Rukarin.
+
+Minor Changes:
+Added and adjusted some jobs and fames for a certain spirit's reversion ability.
+Extensive code and QoL improvements, and some minor bugs fixed.
+You will no longer be unable to kill students/teenagers if you *really* want to kill people.
+Renamed various spirit's abilities.
+(Finally) implemented spirits for vore encounters.
+
+Balancing:
+Doing ungodly things to someone no longer increases fighting skill.
+Reduced pleasure given when doing ungodly things to someone by 25%.
+Increased the amount of pain inflicted when biting someone's breasts while being an ungodly creature by 50% (to better match cat/wolf transformations').
+Biting on someone's penis while you're an ungodly creature no longer increases crime.
+Made so that a certain spirit's hot ability will now hit all opponents in a given combat.
+Virginities will no longer be reverted when using a certain spirit's reversion ability.
+A certain spirit's barrage of punches will no longer be affected by its other ability to reduce damage.
+The aforementioned ability will now preserve your penile/vaginal virginity (if active) even after penetration.
+Decreased daily willpower decay (when not a Joestar): from 1.5% per day to 0.5% per day.
+Increased willpower gain when "overwhelmed by pain" by 40% and "overwhelmed by arousal" by 100%.
+Increased willpower gain when meditating by 100%.
+
+Bug fixes:
+Spirit's abilities should now work properly on beasts.
+Fixed some weird effects happening when spirits encounter tentacles.
+Submissiveness should now properly be considered when getting the name of a spirit.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Version 0.1.0 - Game Version 0.2.3.2:
+
+Degrees of Bizarre Lewdity created!
+
+Main changes:
+-Pain reduction by time was reduced by a third of what it used to be.
+
+-Day/night cycle changed from 15h(6-21 or 6AM-9PM)/9h(21-6 or 21PM-6AM) to 13h(7-20 or 7AM-8PM)/11(20-7 or 8PM-7AM).
+
+-You can now train at the waterfall to gain willpower.
+
+-Added the Fighting skill: The more you fight (defiant act), the more damage you will cause thanks to combat experience.
+
+-Added a new, hidden location to get money in Elk Street.
+
+-Added the Joestar Background: Willpower will increase instead of decrease daily (meet someone at the waterfall to further increase daily willpower gain).
+
+-You can now acquire three new transformations:
+	Transformation 1 - Fighter with the power of the Sun. With it you can use a powered up left and right punch that also heals the you, a powered up kick that heals you, and an incredibly powerful attack meant to be used by both hands at the same time. Pain will relief up to 2.25x faster.
+
+	Transformation 2 - Ungodly creature. You will heal very fast (3x faster), all your defiant actions will cause 3x the normal damage, and you will be much more successful when using seduction. But vampires cannot outstand sunlight, therefore it's difficult for them to survive during the day.
+
+	Transformation 3 - You will be able to summon a spirit to help you in battle with enough skill. The current spirits go as it follows:
+	-Fighting skill: Very powerful in combat; can stop time for a couple turns.
+	-Swimming skill: Standard power; can create a web of strings to damage the opponent passively .
+	-Dancing skill: Standard power; can use a very powerful attack every now and then.
+	-Skulduggery skill: Low power; makes crime not increase.
